@@ -85,3 +85,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Latar belakang */
+body {
+    background-image: url("D:\images\kfclogo.jpg"); /* Pastikan path gambar benar */
+    background-size: cover; /* Agar gambar mengisi seluruh halaman */
+    background-position: center; /* Memusatkan gambar */
+    background-attachment: fixed; /* Agar gambar tetap di tempat saat scroll */
+    color: white; /* Mengatur warna teks agar kontras dengan gambar */
+    font-family: Arial, sans-serif; /* Menambahkan font yang lebih mudah dibaca */
+}
